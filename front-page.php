@@ -5,6 +5,7 @@
 			</a>
 		</section>
 		<section>
+			  <video autoplay="true" muted="true" loop="true" controls="true" type="video/mp4" src="https://www.youtube.com/watch?v=z2RYB8MFY2o&feature=youtu.be" ></video>
 			<img src="<?php echo get_template_directory_uri(); ?>/img/sh_map.png" id="gmap">
 		</section>
 
