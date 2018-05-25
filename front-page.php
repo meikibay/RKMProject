@@ -1,8 +1,10 @@
 <?php get_header();?>
-<!--Content Overlaping the Hero Image with Map, Adress and Schedule-->
+<!--Content Overlaping the Hero Image with Map, Adress and Schedule
 			<a target="_blank" href="<?php wp_get_attachment_url()?> schedule-2" class="button is-light is-medium">
 				Our Schedule
 			</a>
+-->
+
 		</section>
 		<section>
 			  <video autoplay="true" muted="true" loop="true" controls="true" type="video/mp4" src="https://www.youtube.com/watch?v=z2RYB8MFY2o&feature=youtu.be" ></video>
