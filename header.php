@@ -11,6 +11,7 @@
 <body>
 	<header class="is-fullhd hero">
 		<nav>
+			<a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/.png" alt="RKM logo"></a>
 			<?php wp_nav_menu(array(
 				'menu_class' =>'level-item',
 			)); ?>
