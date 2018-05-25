@@ -4,13 +4,13 @@ h2{
 }
 
 .menu-item{
-	margin-right: 10%;
+	margin-left: 2%;
 }
 
 /*--------Banner "hero image"-----*/
 
 .bggif{
-	background: url(../img/shbg.png) no-repeat center center fixed; 
+	background: url(../img/shbg.png) no-repeat center center fixed;
   	background-size: cover;
 }
 
@@ -31,7 +31,7 @@ h2{
 
 .mncntnt{
 	padding-top: 2%;
-	padding-bottom: 2%; 
+	padding-bottom: 2%;
 }
 
 
@@ -76,18 +76,18 @@ h2{
 }
 
 .imgsld{
-	height:500px; 
+	height:500px;
 	margin-bottom:10%;
 }
 
 /*--footer--*/
 
 .footer{
-	margin-top: 40%; 
-	background-color: #303135 !important;
+	margin-top: 40%;
+	background-color: black !important;
 	color: white !important;
 }
 
 .icon{
-	margin: 7px;
+	margin: 10px;
 }
