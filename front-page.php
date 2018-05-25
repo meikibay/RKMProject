@@ -7,13 +7,27 @@
 
 		</section>
 		<video autoplay="true" muted="true" loop="true" controls="true" type="video/mp4" src="https://www.youtube.com/watch?v=z2RYB8MFY2o&feature=youtu.be" ></video>
-		<section>
-
-			<img src="<?php echo get_template_directory_uri(); ?>/img/.png" id="maplocation">
+		<section "container is-fullhd">
+			<div class="column">
+				<div class="column is-three-quarters">
+						Sample Text
+					<div>
+				<div class="column"><img src="<?php echo get_template_directory_uri(); ?>/img/.png" id="maplocation">
+				</div>
+			</div>
 		</section>
-
-    			<img src="<?php echo get_template_directory_uri(); ?>/img/.jpg">
-
+<section "container is-fullhd">
+	<div class="column">
+			<div class="column is-three-quarter">
+			</div>
+		</div>
+		<div class="column is-one-quarter">
+	    	<img src="<?php echo get_template_directory_uri(); ?>/img/.jpg">
+		<div class="column">
+			Sample text 2
+		</div>
+	</div>
+</section>
 
 <!--JavaScript for the slider (hiding & displaying next image)
 	<script type="text/javascript">
