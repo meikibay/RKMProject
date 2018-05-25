@@ -6,13 +6,13 @@
 		</section>
 		<section>
 			  <video autoplay="true" muted="true" loop="true" controls="true" type="video/mp4" src="https://www.youtube.com/watch?v=z2RYB8MFY2o&feature=youtu.be" ></video>
-			<img src="<?php echo get_template_directory_uri(); ?>/img/sh_map.png" id="gmap">
+			<img src="<?php echo get_template_directory_uri(); ?>/img/.png" id="maplocation">
 		</section>
 
-    			<img src="<?php echo get_template_directory_uri(); ?>/img/mike.jpg">
+    			<img src="<?php echo get_template_directory_uri(); ?>/img/.jpg">
 
 
-<!--JavaScript for the slider (hiding & displaying next image)-->
+<!--JavaScript for the slider (hiding & displaying next image)
 	<script type="text/javascript">
 		var slides = document.querySelectorAll('#slides .slide');
 		var currentSlide = 0;
@@ -24,5 +24,6 @@
 		slides[currentSlide].className = 'slide showing';
 		}
 	</script>
+-->
 
 <?php get_footer(); ?>
