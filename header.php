@@ -10,7 +10,13 @@
 </head>
 <body>
 	<header class="is-fullhd hero">
-  <!--Dynamically Obtaining the Menu set on the Wordpress Admin Panel-->
+		<nav>
+			<?php wp_nav_menu(array(
+				'menu_class' =>'level-item',
+			)); ?>
+		</nav>
+
+<!--Dynamically Obtaining the Menu set on the Wordpress Admin Panel
 		<nav class="level">
 			<?php
         wp_nav_menu(array(
@@ -28,3 +34,4 @@
         ) );
     	?>
 	 </nav>
+-->
