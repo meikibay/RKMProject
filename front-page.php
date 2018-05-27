@@ -39,12 +39,12 @@
 				<a class="button is-danger">Read more about me</a>
 			</div>
 			<div class="column is-half">
-				<img src="http://via.placeholder.com/350x150" alt="" class ="tri">
+				<img src="http://via.placeholder.com/350x200" alt="" class ="tri">
 			</div>
 		</div>
 		<div class="columns is-centered">
 			<div class="column is-half">
-				<img src="http://via.placeholder.com/350x150" alt="" class ="tri">
+				<img src="http://via.placeholder.com/350x200" alt="" class ="tri">
 			</div>
 			<div class="column is-half has-text-centered">
 				<h3>Who am I</h3>
@@ -57,7 +57,7 @@
 					<a class="button is-danger">about another thing</a>
 			</div>
 			<div class="column is-half">
-				<img src="http://via.placeholder.com/400x400" alt="" class ="tri">
+				<img src="http://via.placeholder.com/350x200" alt="" class ="tri">
 			</div>
 		</div>
 	</section>
@@ -75,6 +75,18 @@
 	      </h3>
 	    </div>
 	  </div>
+	</section>
+
+	<section class="">
+		<div class="columns">
+			<div class="column is-half">
+				<img src="http://via.placeholder.com/350x200" alt="" class ="tri">
+			</div>
+			<div class="column is-half has-text-centered">
+				<h2>Who we are</h2>
+				<a class="button is-danger">Read more about me</a>
+			</div>
+		</div>
 	</section>
 
 
