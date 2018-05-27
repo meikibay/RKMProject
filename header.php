@@ -10,13 +10,14 @@
 </head>
 <body>
 	<header class="is-fullhd hero">
-		<nav>
-			<a class="navbar-brand" href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/.png" alt="RKM logo"></a>
+		<nav class="navbar">
+			<a class="navbar-brand navbar-item" href="<?php echo esc_url( home_url('/') ); ?>"><img src="<?php echo get_template_directory_uri(); ?>/img/rkm.svg" alt="RKM logo"></a>
 			<?php wp_nav_menu(array(
-				'menu_class' =>'level-item',
+				'menu_class' =>'navbar-end navbar-item',
+				'container' => 'level-item',
 			)); ?>
 		</nav>
-
+</header>
 <!--Dynamically Obtaining the Menu set on the Wordpress Admin Panel
 		<nav class="level">
 			<?php
