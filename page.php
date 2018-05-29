@@ -6,7 +6,6 @@
                 the_post();
                 // Post Content here
                 ?>
-
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -19,7 +18,7 @@
                                 <h4 class="post-subtitle">
                                     <?php the_excerpt(); ?>
                                 </h4>
-                                <p class="post-meta">Posted by
+                                <p class="post-meta">This thing was posted by
                                     <?php the_author(); ?> at <?php the_time(); ?>
                                 </p>
                             </div>
