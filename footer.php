@@ -18,20 +18,27 @@
 				<a href="https://www.twitter.com">
 					<h2>
 						<span class="icon">
-		  					<i class="fa fa-twitter"></i>
+		  					<i class="fa fa-envelope-square"></i>
+						</span>
+					</h2>
+				</a>
+				<a href="https://www.twitter.com">
+					<h2>
+						<span class="icon">
+		  					<i class="fa fa-phone-square"></i>
 						</span>
 					</h2>
 				</a>
 			</section>
 			<section class="content has-text-centered level-item">
+				<h2 id="address">Tatranská 73
+97411 Banská Bystrica, Slovakia</h2>
 			</section>
-			<section class="content has-text-centered level-item">
-				<h2>
+			<!--<section class="content has-text-centered level-item">
 					<span class="icon">
-	  					<i class="fa fa-phone-square"></i>
+	  					<i class="fa fa-phone-square">+421 903 560 118</i>
 					</span>
-				</h2>
-			</section>
+			</section>!-->
 		</section>
 	</footer>
 </body>
