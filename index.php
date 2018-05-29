@@ -10,22 +10,22 @@
         <div class="column">
             <div class="has-text-centered">
                 <div class="post-preview">
+                  <a href ="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+                      <h1 class="post-title">
+                          <?php the_title();?>
+                      </h1>
+                  </a>
                     <a href ="<?php the_permalink(); ?>">
                         <?php the_post_thumbnail('large'); ?>
                     </a>
-                    <a href ="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-                        <h1 class="post-title">
-                            <?php the_title();?>
-                        </h1>
-                    </a>
+
                     <h4 class="post-subtitle">
                         <?php the_excerpt(); ?>
                     </h4>
-                    <p class="post-meta">Posted by
+                    <p class="post-meta">This post was made by this piece of work:
                         <?php the_author(); ?> at <?php the_time(); ?>
                     </p>
                 </div>
-                <hr>
             </div>
         </div>
     </section>
