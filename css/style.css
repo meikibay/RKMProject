@@ -1,5 +1,46 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #ED1D2E;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .navbar{
 	background-color: black !important;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+li a:hover{
+	color:  #ED1D2E;
+}
+
+.button.is-danger{
+	background-color: #ED1D2E !important;
 }
 
 .navbar-brand{
@@ -23,12 +64,22 @@
 	    height: 100%;
 	}
 
+.duo{
+	width: 100%;
+	max-height: 505px;
+	display: block;
+}
 
-
-
+.duo:hover {
+	opacity: 0.75;
+}
 
 .menu-item {
 	margin-left: 15px;
+}
+
+.marg{
+	margin-top: 25%;
 }
 /*--------Banner "hero image"-----*/
 
@@ -70,6 +121,9 @@
 }
 
 /*--------slider-----*/
+
+
+//Ends Here
 
 #slides{
 	position: relative;
@@ -117,4 +171,10 @@
 .icon{
 	margin: 10px;
 	color: white;
+}
+
+#address{
+  color: white;
+  font-size:20pt;
+  margin: 0;
 }
